@@ -43,10 +43,10 @@ The eccodes package may not be necessary, unless gridded data is wanted. With co
 
 ## Example programs
 
-- MEPSopenData_timeseries_multistat.py
+- MEPSopenData_timeseries_multistat.py: 
 Timeseries application example. 
 
-- MEPSopenData_wfs_multistat.py
+- MEPSopenData_wfs_multistat.py: 
 WFS example.
 
 ### Notes on the examples
