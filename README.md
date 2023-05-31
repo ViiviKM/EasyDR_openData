@@ -32,7 +32,7 @@ The python directions (link 2.) has directions for installation in the beginning
 
 ### wfs.html
 
-Available data, and various options, are listed in the wfs.html file. The directions for this are given after the installation in the python directions. If this doesn't work, the wfs.html file is also included in the repository, open it with your browser. The information in the wfs.html is particularly useful for modifying the data collection example with WFS.
+Available data, and various options, are listed in the wfs.html file, which will be produced on your own system when following the python directions for Open Data (link 2.). For your convenience in the case this doesn't work, the wfs.html file is also included in the repository. Open it with your browser. The information in the wfs.html is particularly useful for modifying the data collection example with WFS.
 
 ### Environment
 
