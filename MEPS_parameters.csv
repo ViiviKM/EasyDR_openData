@@ -1,0 +1,68 @@
+Parameters,Description
+Pressure,Mean Sea Level Pressure
+ GeopHeight, GeopotentialHeight
+ Temperature, Temperature
+ MaximumTemperature, TMax
+ MinimumTemperature, TMin
+ DewPoint, Dew Point Temperature
+ Humidity, Relative Humidity
+ WindDirection, Wind dir
+ WindSpeedMS, Wind speed
+ WindUMS, WindU
+ WindVMS, WindV
+ WindGustU, U-Gust
+ WindGustV, V-Gust
+ LapseRate, LapseRate
+ PrecipitationAmount, Total Precipitation
+ SnowDepth, Snow Depth
+ PrecipitationForm, Precipitation Form (FMI)
+ CAPE, CAPE
+ TotalCloudCover, Total Cloud Cover
+ MixedLayerDepth, Boundary Layer Height
+ FlashMultiplicity, Flash Strikes/5min/30x30km
+ SnowfallRate, Snowfall Intensity
+ SnowAccumulation, Snowfall Accumulation
+ FreezingLevel, 0C Level Height
+ LowCloudCover, Low Cloud Cover
+ MediumCloudCover, Medium Cloud Cover
+ HighCloudCover, High Cloud Cover
+ LandSeaMask, Land/Sea mask
+ GroundTemperature, Ground temperature
+ RadiationLW, Long Wave Radiation
+ RadiationSW, RadiationSW
+ RadiationGlobal, Short Wave Radiation
+ FogIntensity, Fog Index (FMI)
+ WeatherSymbol1, Precipitation Symbol (FMI)
+ WeatherSymbol3, WeatherSymbol3 (FMI)
+ Precipitation1h, Precipitation Intensity mm/h
+ Visibility, Visibility
+ WindGust, Wind Gust
+ CloudBase, Ceiling ft (FMI)
+ CbCloudCover, Cb cover
+ CbCloudBase, Cb base height (ft)
+ CbCloudTop, CB/TCU cloud top fl
+ RadiationGlobalAccumulation, RADGLOA-JM2
+ RadiationNetSurfaceLWAccumulation, Radiation NetLW
+ RadiationNetSurfaceSWAccumulation, RNETSWA-JM2
+ PrecipitationRateGraupel, Graupel rate
+ PrecipitationRateSolid, Solid precipitation rate
+ CloudTop, Cloud top
+ MoninObukhovLength, Monin-Obukhov Length Inv
+ PrecipitationForm3, Hybrid Precipitation Form (FMI)
+ QNH, QNH
+ PrecipitationInstantTotal, InstantPrecTotal
+ ProbabilityThunderstorm2, Probability Of Thunder (FMI)
+ BoundaryLayerTurbulence, Boundary Layer Turbulence (FMI)
+ PotentialPrecipitationForm, Potential Precipitation Form (FMI)
+ CloudBase2, Ceiling2 ft (FMI)
+ Visibility2, Visibility (FMI)
+ PotentialPrecipitationType, Potential Precipitation Type (FMI)
+ FrostPoint, Frost Point (FMI)
+ LowestFEWHeight, Lowest FEW height (ft)
+ LowestSCTHeight, Lowest SCT height (ft)
+ LowestBKNHeight, Lowest BKN height (ft)
+ LowestOVCHeight, Lowest OVC height (ft)
+ RadiationSWAccumulation, RADSWA-JM2
+ SmartSymbol, SmartSymbol (FMI)
+ SnowDriftIndex, Snow Drift Index
+ tropopause_altitude, Tropopause Flight Level (FMI)
