@@ -6,7 +6,7 @@ Management Viivi Kallio-Myers, Anders Lindfors
 
 This GitHub repository contains examples and directions for FMI Open Data collection. The content is intended for use in the EasyDR project.
 
-Currently examples are for collecting MEPS forecasts. Examples for collecting ECMWF forecasts through the FMI Open Data will be added soon (most likely beginning of June).
+Currently examples are for collecting MEPS forecasts. MEPS stands for MetCoOp Ensemble Prediction System, but please note that these examples are for the deterministic forecast member of MEPS. Examples for collecting ECMWF (European Centre for Medium-range Weather Forecasts) forecasts through the FMI Open Data will be added soon (most likely beginning of June).
 
 The links also include directions for collecting observations, but the examples given in this repository are only for forecasts. However, the example programs can be easily modified to collect observations.
 
