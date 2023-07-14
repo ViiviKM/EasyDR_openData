@@ -6,9 +6,9 @@ Management Viivi Kallio-Myers, Anders Lindfors
 
 This GitHub repository contains examples and directions for FMI Open Data collection. The content is intended for use in the EasyDR project.
 
-Currently examples are for collecting MEPS forecasts. MEPS stands for MetCoOp Ensemble Prediction System, but please note that these examples are for the deterministic forecast member of MEPS. Examples for collecting ECMWF (European Centre for Medium-range Weather Forecasts) forecasts through the FMI Open Data will be added soon (most likely beginning of June).
+Currently there are examples for collecting MEPS forecasts and weather observations. MEPS stands for MetCoOp Ensemble Prediction System, but please note that these examples are for the deterministic forecast member of MEPS. Examples for collecting ECMWF (European Centre for Medium-range Weather Forecasts) forecasts through the FMI Open Data can be added in August, if they are needed.
 
-The links also include directions for collecting observations, but the examples given in this repository are only for forecasts. However, the example programs can be easily modified to collect observations.
+The links include directions for collecting both forecasts and observations.
 
 The directions here have been written for Linux.
 
@@ -47,7 +47,10 @@ The eccodes package may not be necessary, unless gridded data is wanted. With co
 Timeseries application example. 
 
 - MEPSopenData_wfs_multistat.py: 
-WFS example.
+WFS example for collecting MEPS forecasts.
+
+- Observations_openData_wfs_multistat.py:
+Example for collecting observations with WFS.
 
 ### Notes on the examples
 
@@ -61,7 +64,9 @@ WFS example.
 - The WFS service is quite versatile, and the python directions and FMI directions are convenient for modifying the example program.
 - Place and latlons: This does not accept name or place as parameters in the same way as timeseries does, but it returns the name of the location regardless. The name can be very specific, eg. "60.1699,24.9384" gives “Central Helsinki”, "60.169,24.938" gives “Helsinki”, and "60.16,24.93" gives “Sinebrychoff park”
 - Latlon and place name options are given in the example.
- 
+
+3. Obsevation locations
+- The locations must be measurement station locations for them to have the observations, eg. Kumpula, Jokioinen and Kuopio have radiation observations.
  
 
 
