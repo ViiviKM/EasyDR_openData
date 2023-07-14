@@ -11,7 +11,6 @@ Open Data collection for weather observations- WFS.
 
 @author: kalliov
 """
-
 import requests
 import datetime as dt
 import pandas as pd
