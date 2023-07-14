@@ -25,6 +25,9 @@ start_time = now.strftime('%Y-%m-%dT00:00:00Z')
 end = now + dt.timedelta(days=3)
 end_time = end.strftime('%Y-%m-%dT00:00:00Z')
 
+#start_time = "2022-01-01 00:00"
+#end_time = "2022-01-04 00:00"
+
 # List the wanted MEPS parameters
 parameters = ["name",
               "time",
@@ -67,6 +70,8 @@ parameters_str = ','.join(parameters)
 #               start and endtimes removed, returns a set length from now
 payload = { "latlons": "60.169,24.938,62.2,25.8",
             "param": parameters_str, 
+            "starttime":start_time,
+            "endtime":end_time,
             "tz": "UTC",
             "precision": "double",
             "format": "json"}
